@@ -1,0 +1,211 @@
+----Output of whisper_transcription.py----
+
+OpenAI Client initialized successfully.
+Project folders checked:
+c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\audio
+c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\chunks
+c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\outputs
+pydub imported successfully.
+Audio file validation successful.
+File: Arthur.mp3
+Duration: 228.36 seconds
+Duration: 3.81 minutes
+Channels: 2
+Frame rate: 44100 Hz
+Sample width: 2 bytes
+Transcribing audio with Whisper
+
+Transcription:
+----------------------------------------
+The story of Arthur the Rat. Once upon a time, there was a young rat who couldn't make up his mind. Whenever the other rats asked him if he would like to come out hunting with them, he would answer in a hoarse voice, I don't know. And when they said, would you rather stay inside, he would say yes or no either. He'd always shake making a choice. One fine day, his Aunt Josephine said to him, now look here, no one will ever care for you if you carry on like this. You have no more mind of your own than a greasy old blade of grass. The young rat coughed and looked quiet as usual, but said nothing. Don't you think so, said his aunt, stamping her foot, for she couldn't bear to see the young rat so cold-blooded. I don't know, was all he ever answered. And then he walked off to think for an hour or more, whether he would stay in his hole in the ground or go out into the loft. One night the rats heard a loud noise in the loft. It was a very dreary old place. The roof let the rain come down, come washing in. The beams and the rafters had all rotted through. So the whole thing was quite unsafe. At last one of the joists gave way, and the beams fell with one edge on the floor. The walls shook, the cupola fell off, and all the rats' hair stood on end with fear and horror. This won't do, city leader. We can't stay cooped up here any longer. So they sent out scouts to search for a new home. A little later on that evening, the scouts came back and said they'd find an old-fashioned art farm where there would be room for all of them. The leader gave the order at once. Come new fallen in. And the rats crawled out of the hole right away and stood on the floor in a long line. Just then the old rat caught sight of young Arthur. That was the name of the shaker. He wasn't in the line, and he wasn't exactly outside it. He stood just by it. Come on, get in line. Growled the old rat coarsely. Of course you're coming too. I don't know, said Arthur calmly. Why, the idea of it. You don't think it's safe here anymore, do you? I'm not certain, said Arthur undaunted. The roof may not fall down yet. Well, said the old rat, you can't wait for you to join us. Then he turned to the other and shot it right about the face. Marked. And the long line marched out of the barn while the young rat watched him. I think I'll go tomorrow, he said to himself. But then again, perhaps I won't. It's so nice and snug here. I guess I'll go back to my hole under the log for a while just to make up my mind. But during the night there was a big crash. Down came beams, rafters, joists, the whole business. Next morning, it was a foggy day, some men came to look over the damage. It seemed odd to them that the old building was not haunted by rats. But at last one of them happened to move aboard, and he caught sight of a young rat, quite dead, half in and half out of his hole. Thus the shirker got his due and there was no mourning for him.
+
+Transcription saved to: c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\outputs\arthur_basic_transcription.txt
+Transcribing audio with Whisper using prompt
+
+Prompted Transcription:
+----------------------------------------
+The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind. Whenever the other rats asked him if he would like to come out hunting with them, he would answer in a hoarse voice, I don't know. And when they said, would you rather stay inside, he would say yes or no either. He'd always shake making a choice. One fine day his Aunt Josephine said to him, now look here, no one will ever care for you if you carry on like this. You have no more mind of your own than a greasy old blade of grass. The young rat coughed and looked wise as usual but said nothing. Don't you think so, said his aunt, stamping her foot, for she couldn't bear to see the young rat so cold-blooded. I don't know, was all he ever answered. And then he walked off to think for an hour or more, whether he would stay in his hole in the ground or go out into the loft. One night the rats heard a loud noise in the loft. It was a very dreary old place. The roof let the rain come down, the wind had come washing in, the beams and the rafters had all rotted through, so the whole thing was quite unsafe. At last one of the joists gave way and the beams fell with one edge on the floor. The walls shook, the cupola fell off, and all the rats' hair stood on end with fear and horror. This won't do, said the leader. We can't stay cooped up here any longer, so they sent out scouts to search for a new home. A little later on that evening the scouts came back and said they had found an old-fashioned art farm, where there would be room for all of them. The leader gave the order at once, come you following in, and the rats crawled out of the hole right away and stood on the floor in a long line. Just then the old rat caught sight of young Arthur. That was the name of the shaker. He wasn't in the line and he wasn't exactly outside it. He stood just by it. Come on, get in line, growled the old rat coarsely. Of course you're coming too. I don't know, said Arthur calmly. Why the idea of it. You don't think it's safe here anymore, do you? I'm not certain, said Arthur undaunted. The roof may not fall down yet. Well, said the old rat, you can't wait for us to, for you to join us. Then he turned to the other and shouted right about the face, marched, and the long line marched out the barn while a young rat watched him. I think I'll go tomorrow, he said to himself, but then again perhaps I won't. It's so nice and snug here. I guess I'll go back to my hole under the log for a while just to make up my mind. But during the night there was a big crash. Down came beams, rafters, joists, the whole business. Next morning, it was a foggy day. Some men came to look over the damage. It seemed odd to them that the old building was not haunted by rats, but at last one of them happened to move aboard and he caught sight of a young rat, quite dead, half in and half out of his hole. Thus the shirker got his due and there was no morning for him.
+
+Prompted transcription saved to: c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\outputs\arthur_prompted_transcription.txt
+
+Comparison: Prompted vs. Unprompted
+----------------------------------------
+
+Unprompted transcription:
+The story of Arthur the Rat. Once upon a time, there was a young rat who couldn't make up his mind. Whenever the other rats asked him if he would like to come out hunting with them, he would answer in a hoarse voice, I don't know. And when they said, would you rather stay inside, he would say yes or no either. He'd always shake making a choice. One fine day, his Aunt Josephine said to him, now look here, no one will ever care for you if you carry on like this. You have no more mind of your own than a greasy old blade of grass. The young rat coughed and looked quiet as usual, but said nothing. Don't you think so, said his aunt, stamping her foot, for she couldn't bear to see the young rat so cold-blooded. I don't know, was all he ever answered. And then he walked off to think for an hour or more, whether he would stay in his hole in the ground or go out into the loft. One night the rats heard a loud noise in the loft. It was a very dreary old place. The roof let the rain come down, come washing in. The beams and the rafters had all rotted through. So the whole thing was quite unsafe. At last one of the joists gave way, and the beams fell with one edge on the floor. The walls shook, the cupola fell off, and all the rats' hair stood on end with fear and horror. This won't do, city leader. We can't stay cooped up here any longer. So they sent out scouts to search for a new home. A little later on that evening, the scouts came back and said they'd find an old-fashioned art farm where there would be room for all of them. The leader gave the order at once. Come new fallen in. And the rats crawled out of the hole right away and stood on the floor in a long line. Just then the old rat caught sight of young Arthur. That was the name of the shaker. He wasn't in the line, and he wasn't exactly outside it. He stood just by it. Come on, get in line. Growled the old rat coarsely. Of course you're coming too. I don't know, said Arthur calmly. Why, the idea of it. You don't think it's safe here anymore, do you? I'm not certain, said Arthur undaunted. The roof may not fall down yet. Well, said the old rat, you can't wait for you to join us. Then he turned to the other and shot it right about the face. Marked. And the long line marched out of the barn while the young rat watched him. I think I'll go tomorrow, he said to himself. But then again, perhaps I won't. It's so nice and snug here. I guess I'll go back to my hole under the log for a while just to make up my mind. But during the night there was a big crash. Down came beams, rafters, joists, the whole business. Next morning, it was a foggy day, some men came to look over the damage. It seemed odd to them that the old building was not haunted by rats. But at last one of them happened to move aboard, and he caught sight of a young rat, quite dead, half in and half out of his hole. Thus the shirker got his due and there was no mourning for him.
+
+Prompted transcription:
+The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind. Whenever the other rats asked him if he would like to come out hunting with them, he would answer in a hoarse voice, I don't know. And when they said, would you rather stay inside, he would say yes or no either. He'd always shake making a choice. One fine day his Aunt Josephine said to him, now look here, no one will ever care for you if you carry on like this. You have no more mind of your own than a greasy old blade of grass. The young rat coughed and looked wise as usual but said nothing. Don't you think so, said his aunt, stamping her foot, for she couldn't bear to see the young rat so cold-blooded. I don't know, was all he ever answered. And then he walked off to think for an hour or more, whether he would stay in his hole in the ground or go out into the loft. One night the rats heard a loud noise in the loft. It was a very dreary old place. The roof let the rain come down, the wind had come washing in, the beams and the rafters had all rotted through, so the whole thing was quite unsafe. At last one of the joists gave way and the beams fell with one edge on the floor. The walls shook, the cupola fell off, and all the rats' hair stood on end with fear and horror. This won't do, said the leader. We can't stay cooped up here any longer, so they sent out scouts to search for a new home. A little later on that evening the scouts came back and said they had found an old-fashioned art farm, where there would be room for all of them. The leader gave the order at once, come you following in, and the rats crawled out of the hole right away and stood on the floor in a long line. Just then the old rat caught sight of young Arthur. That was the name of the shaker. He wasn't in the line and he wasn't exactly outside it. He stood just by it. Come on, get in line, growled the old rat coarsely. Of course you're coming too. I don't know, said Arthur calmly. Why the idea of it. You don't think it's safe here anymore, do you? I'm not certain, said Arthur undaunted. The roof may not fall down yet. Well, said the old rat, you can't wait for us to, for you to join us. Then he turned to the other and shouted right about the face, marched, and the long line marched out the barn while a young rat watched him. I think I'll go tomorrow, he said to himself, but then again perhaps I won't. It's so nice and snug here. I guess I'll go back to my hole under the log for a while just to make up my mind. But during the night there was a big crash. Down came beams, rafters, joists, the whole business. Next morning, it was a foggy day. Some men came to look over the damage. It seemed odd to them that the old building was not haunted by rats, but at last one of them happened to move aboard and he caught sight of a young rat, quite dead, half in and half out of his hole. Thus the shirker got his due and there was no morning for him.
+
+Comparison saved to: c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\outputs\arthur_comparison.txt
+
+Exact Differences:
+----------------------------------------
+- time,
++ time
+- day,
++ day
+- quiet
++ wise
+- usual,
++ usual
++ the
++ wind
++ had
+- in.
+- The
++ in,
++ the
+- through.
++ through,
+- So
++ so
+- way,
++ way
+- city
++ said
++ the
+- longer.
++ longer,
+- So
++ so
+- evening,
++ evening
+- they'd
++ they
+- find
++ had
++ found
+- farm
++ farm,
+- once.
++ once,
+- Come
++ come
+- new
+- fallen
+- in.
+- And
++ you
++ following
++ in,
++ and
+- line,
++ line
+- line.
++ line,
+- Growled
++ growled
+- Why,
++ Why
++ us
++ to,
++ for
++ shouted
+- shot
+- it
+- face.
++ face,
+- Marked.
+- And
++ marched,
++ and
+- of
+- the
++ a
+- himself.
++ himself,
+- But
++ but
+- again,
++ again
+- day,
++ day.
+- some
++ Some
+- rats.
++ rats,
+- But
++ but
+- aboard,
++ aboard
+- mourning
++ morning
+
+Differences saved to: c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\outputs\arthur_differences.txt
+
+ 🔪 Splitting audio into chunks
+----------------------------------------
+Chunk 1 created: arthur_chunk_1.mp3 [0.00s - 60.00s]
+Chunk 2 created: arthur_chunk_2.mp3 [60.00s - 120.00s]
+Chunk 3 created: arthur_chunk_3.mp3 [120.00s - 180.00s]
+Chunk 4 created: arthur_chunk_4.mp3 [180.00s - 228.36s]
+
+Total audio duration: 228.36 seconds
+Total chunks created: 4
+
+Transcribing chunks with timestamps
+----------------------------------------
+
+Transcribing chunk 1/4
+File: arthur_chunk_1.mp3
+Offset: 0.00s
+[0.00s - 7.50s] The story of Arthur the Rat. Once upon a time, there was a young rat who couldn't make up his mind.
+[7.50s - 13.00s] Whenever the other rats asked him if he would like to come out hunting with them,
+[13.00s - 16.50s] he would answer in a hoarse voice, I don't know.
+[16.50s - 24.00s] And when they said, would you rather stay inside, he would say yes or no either.
+[24.00s - 28.00s] He'd always shake making a choice.
+[29.00s - 32.00s] One fine day, his Aunt Josephine said to him,
+[32.00s - 37.00s] now look here, no one will ever care for you if you carry on like this.
+[37.00s - 41.00s] You have no more mind of your own than a greasy old blade of grass.
+[41.00s - 44.00s] The young rat coughed and looked quiet as usual, but said nothing.
+[44.00s - 49.00s] Don't you think so, said his aunt, stamping her foot,
+[49.00s - 54.00s] for she couldn't bear to see the young rat so cold-blooded.
+[54.00s - 60.00s] I don't know, was all he ever answered, and then he walked off to think.
+
+Transcribing chunk 2/4
+File: arthur_chunk_2.mp3
+Offset: 60.00s
+[60.00s - 69.00s] for an hour or more. Rather, he would stay in his hole in the ground or go out into the loft.
+[69.00s - 78.00s] One night the rats heard a loud noise in the loft. It was a very dreary old place. The roof let the rain come down,
+[78.00s - 86.00s] come washing in. The beams and the rafters had all rotted through, so the whole thing was quite unsafe.
+[86.00s - 95.00s] At last, one of the joists gave way, and the beams fell with one edge on the floor.
+[95.00s - 105.00s] The walls shook, the cupola fell off, and all the rats' hair stood on end with fear and horror.
+[105.00s - 114.00s] This won't do, said the leader. We can't stay cooped up here any longer, so they sent out scouts to search for a new home.
+[114.00s - 120.00s] A little later on that evening, the scouts came back and said they had found an old-fashioned horse barn.
+
+Transcribing chunk 3/4
+File: arthur_chunk_3.mp3
+Offset: 120.00s
+[120.00s - 125.00s] where there would be room for all of them. The leader gave the order at once,
+[125.00s - 131.00s] come you following in, and the rats crawled out of the hole right away and stood on the floor in a long line.
+[131.00s - 137.00s] Just then the old rat caught sight of young Arthur. That was the name of the shaker.
+[137.00s - 144.00s] He wasn't in the line, and he wasn't exactly outside it. He stood just by it.
+[144.00s - 152.00s] Come on, get in line, growled the old rat coarsely. Of course you're coming too.
+[152.00s - 161.00s] I don't know, said Arthur calmly. Why the idea of it. You don't think it's safe here anymore, do you?
+[161.00s - 168.00s] I'm not certain, said Arthur undaunted. The roof may not fall down yet.
+[168.00s - 173.00s] Well, said the old rat, you can't wait for you to join us.
+[173.00s - 177.00s] Then he turned to the other and shot it right about the face, marked.
+[177.00s - 180.00s] And the long line marched out.
+
+Transcribing chunk 4/4
+File: arthur_chunk_4.mp3
+Offset: 180.00s
+[180.00s - 186.24s] born while a young rat watched him. I think I'll go tomorrow, he said to himself, but then again
+[186.24s - 194.56s] perhaps I won't. It's so nice and snug here. I guess I'll go back to my hole under the log for a while
+[195.36s - 202.56s] just to make up my mind. But during the night there is a big crash. Down came beams, rafters,
+[202.56s - 209.36s] joists, the whole business. Next morning it was a foggy day. Some men came to look over the damage.
+[209.84s - 215.04s] It seemed odd to them that the old building was not haunted by rats. But at last one of them
+[215.04s - 220.72s] happened to move aboard and he caught sight of a young rat, quite dead, half in and half
+[220.72s - 228.08s] out of his hole. Thus the shirker got his due and there was no mourning for him.
+
+Chunked transcription with timestamps saved to: c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\outputs\arthur_chunked_transcription_with_timestamps.txt
+Total timestamped segments: 36
+
+Exporting transcriptions with timestamps
+----------------------------------------
+TXT export saved to: c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\outputs\arthur_final_transcription.txt
+SRT export saved to: c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\outputs\arthur_final_transcription.srt
+JSON export saved to: c:\Users\nest\Desktop\Labs\LAB  Whisper STT Implementation Lab\outputs\arthur_final_transcription.json
+
+Export completed successfully.
